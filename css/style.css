@@ -6,6 +6,9 @@
     --red: rgba(205, 61, 15, 1);
     --lavish-white: rgba(217, 218, 220, 1);
 }
+.debug{
+    border: 1px solid black;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -30,7 +33,72 @@ body{
 .fa-bars{
     visibility: hidden;
 }
+.width-nav{
+    width: 100%;
+}
 .nav-sticky{
     position: sticky;
-    display: block;
+}
+.logo{
+    width: 100px;
+}
+.bg-image-hero1{
+    background-image: url('../img/jumbo-bg.png');
+    height: 650px;
+}
+.bg-image-hero2{
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    height: 650px;
+    width: 100%;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:5%;
+    width: 20%;
+}
+.returnal{
+    width: 300px;
+    margin-left:5%;
+    margin-top: 15%;
+    margin-bottom: 3rem;
+}
+.takes{
+    width: 300px;
+    margin-left:5%; 
+    margin-top: 8%;  
+}
+.card-text{
+    margin: 20px 0;
+}
+.btn-accedi, .btn-acquista{
+    border: none;
+    border-radius: 20px;
+    margin-top: 2px;
+}
+.between{
+    display: flex;
+    justify-content: space-between;
+}
+.p-10{
+    padding: 10px;
+}
+.fa-search{
+    font-size: 1.5rem;
+    margin-top: 6px;
+    margin-left: 20px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.img-width{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+.img-width:hover{
+    border: 2px solid var(--black);
 }
