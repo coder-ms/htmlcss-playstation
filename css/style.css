@@ -19,6 +19,12 @@ body{
 .p-40{
     padding: 40px;
 }
+.p-20{
+    padding: 0 0 0 20px;
+}
+.pt-20{
+    padding-top: 20px;
+}
 .m-40{
     margin-left: 40px;
 }
@@ -182,4 +188,23 @@ body{
 }
 .img-width:hover{
     border: 2px solid var(--black);
+}
+
+
+#carousel{
+    overflow-x: hidden;
+}
+.decoration{
+    text-decoration: none;
+}
+.footer-logo{
+    padding: 20px 0;
+    width: 150px;
+    filter:invert(0.7);
+}
+.sie{
+    width: 200px;
+}
+footer{
+    overflow-x: hidden;
 }
