@@ -2,6 +2,7 @@
     --black: rgba(31, 31, 31, 1);
     --blue: rgba(58, 109, 231, 1);
     --light-grey: rgba(190, 188, 187, 1);
+    --grey: rgba(66, 66, 66, 1);
     --dark-blue: rgba(28, 28, 59, 1);
     --red: rgba(205, 61, 15, 1);
     --lavish-white: rgba(217, 218, 220, 1);
@@ -12,7 +13,18 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-
+.p-10{
+    padding: 10px;
+}
+.p-40{
+    padding: 40px;
+}
+.m-40{
+    margin-left: 40px;
+}
+.m-60{
+    margin: 0 60px;
+}
 /*BG-COLORS*/
 .mybg-black{
     background-color: var(--black);
@@ -22,6 +34,9 @@ body{
 }
 .mybg-light-grey{
     background-color: var(--light-grey);
+}
+.mybg-grey{
+    background-color: var(--grey);
 }
 .mybg-dark-blue{
     background-color: var(--dark-blue);
@@ -70,11 +85,13 @@ body{
 .bg-image-hero1{
     background-image: url('../img/jumbo-bg.png');
     height: 650px;
+    background-position: center top;
     background-size: cover;
 }
 .bg-image-hero2{
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
     height: 650px;
+    background-position: center top;
     background-size: cover;
 }
 .box{
@@ -95,14 +112,28 @@ body{
     margin-left:5%; 
     margin-top: 8%;  
 }
-.card-text{
-    margin: 20px 0;
+.card-text, .card-title{
+    margin: 5px 20px;
 }
 .btn-accedi, .btn-acquista, .btn-info{
     border: none;
     border-radius: 20px;
-    margin-top: 2px;
+    margin: 5px 20px;
 }
+
+.btn-scopri{
+    width: 130px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 20px;
+}
+.btn-explore{
+    width: 250px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 20px;
+}
+
 .between{
     display: flex;
     justify-content: space-between;
