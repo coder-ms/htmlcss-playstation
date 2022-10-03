@@ -107,6 +107,7 @@ h6{
     border: none;
     margin-left: 10px;
     border: 1px solid var(--blue);
+    padding: 10px;
 }
 
 .btn-blue{
@@ -177,7 +178,7 @@ h6{
 }
 #carousel img{
     width: 100%;
-    padding: 60px;
+    padding: 80px;
 }
 #carousel .col-4:hover{
     border-bottom: 3px solid var(--dark-blue);
