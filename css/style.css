@@ -36,6 +36,7 @@ body{
 .m-60{
     margin: 0 60px;
 }
+
 /*BG-COLORS*/
 .mybg-black{
     background-color: var(--black);
@@ -94,6 +95,7 @@ h3{
 h6{
     font-weight: bold;
 }
+
 /*BUTTON*/
 .btn-red{
     border-radius: 20px;
@@ -185,8 +187,6 @@ h6{
     padding: 10px;
 }
 
-
-
 /*NUOVE USCITE*/
 #nuove-uscite{
     overflow-x: hidden;
@@ -267,7 +267,7 @@ footer{
         padding: 0;
     }
     #hero .box, #hero2 .box{
-        width: 75%0%;
+        width: 75%;
         padding-top: 6rem;
         padding-left: 2rem;
     }
