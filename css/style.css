@@ -204,6 +204,7 @@ h6{
 #social .d-flex{
     width: 60%;
     display: flex;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
